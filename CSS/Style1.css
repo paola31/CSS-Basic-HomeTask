@@ -4,22 +4,25 @@
 html {
     height: 100%;
     margin: 0;
-    padding: 0;
+    padding: -10px;
 }
 
 body {
     margin: 0;
     overflow: auto;
     min-height: 100vh;
+    padding: -10px;
 }
 
 .desktop {
+    background-size: cover;
     position: relative;
     width: 1200px;
     height: 100%;
     margin: auto;
     background: #FFFFff;
-    padding: 0px;
+    padding: -5px;
+    
 }
 
 .hero {
@@ -48,7 +51,7 @@ body {
 .hero-block {
     position: absolute;
     width: 426px;
-    height: 292pc;
+    height: 292px;
     left: 387px;
     top: 252px;
 }
@@ -183,13 +186,13 @@ body {
 }
 
 .learn-more {
+    background-size: cover;
     position: absolute;
     width: 1200px;
     height: 666px;
     left: 0px;
     top: 1490px;
-    background:url(/assets/BackgroundHero.png) no-repeat center;
-
+    background: linear-gradient(rgba(140,79,42,0.3),rgba(140,79,42,0.3)),url(/assets/BackgroundHero.png) no-repeat center;
 }
 
 .learn-more-block {
