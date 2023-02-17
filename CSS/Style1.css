@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Quicksand:wght@300&family=Source+Sans+Pro:ital,wght@0,200;0,300;1,200;1,300&display=swap');
 
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
+    overflow: auto;
+    min-height: 100vh;
 }
 
 .desktop {
     position: relative;
     width: 1200px;
-    height: 2336px;
+    height: 100%;
     margin: auto;
     background: #FFFFff;
     padding: 0px;
@@ -179,7 +187,9 @@ body {
     width: 1200px;
     height: 666px;
     left: 0px;
-    top: 1500px;
+    top: 1490px;
+    background:url(/assets/BackgroundHero.png) no-repeat center;
+
 }
 
 .learn-more-block {
@@ -187,15 +197,7 @@ body {
     width: 480px;
     height: 492px;
     left: 360px;
-    top: 1584px;
-}
-
-.rectangle2 {
-    position: absolute;
-    width: 1200px;
-    height: 666px;
-    left: 0px;
-    top: 1500px;
+    top: 90px;
 }
 
 .h2readmore {
@@ -208,16 +210,16 @@ body {
     position: absolute;
     width: 482px;
     height: 117px;
-    left: 360px;
-    top: 1584px;
+    left: 10px;
+    top: -100px;
 }
 
 .play-container {
     position: absolute;
     width: 150px;
     height: 150px;
-    left: 525px;
-    top: 1754px;
+    left: 11px;
+    top: 70px;
 }
 
 .play {
@@ -229,8 +231,8 @@ body {
     position: absolute;;
     border-color: #55c2d8;;
     border-radius: 180%;
-    left: 1800px;
-    top: 1650px;
+    left: 167px;
+    top: 100px;
 }
 
 .playcarac {
@@ -250,27 +252,19 @@ body {
     position: absolute;
     width: 390px;
     height: 102px;
-    left: 395px;
-    top: 1974px;
+    left: 43px;
+    top: 333px;
 }
 
-.footer{
-    position: absolute;
-    height: 170px;
-    width: 1200px;
-    left: 500px;
-    top: -500px;
-}
-
-.footer-bg {
+.footer {
     background: linear-gradient(rgba(70,69,71,1),rgba(70,69,71,1)) no-repeat center;
     background-color: #464547;
     height: 800px;
     position: absolute;
     height: 170px;
     width: 1200px;
-    left: -600px;
-    top: 2000px;
+    left: 5px;
+    top: 2161px;
     margin: -5px;
 }
 
